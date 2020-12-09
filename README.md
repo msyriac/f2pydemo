@@ -1,7 +1,7 @@
 f2pydemo
 ========
 
-A demonstration of my annoyance with setuptools + f2py.
+A demonstration of my annoyance with / ignorance of setuptools + f2py.
 
 First do:
 ```
@@ -9,7 +9,7 @@ python setup.py build_ext -i
 ```
 which should produce an error.
 
-Then see where the compiled library is using:
+Then check where the compiled library ends up going:
 ```
 find . -iname '*mod2*'
 ```
